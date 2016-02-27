@@ -1,0 +1,54 @@
+/* default principal */
+body {background-image: url('../img/bg.png');background-repeat: repeat;}
+html, body{height: 100%;}
+.centered {margin: 0 auto !important;float: none !important;}
+#active {line-height: 100%;background-color: #31c7b3;}
+h1 {margin-top: 150px;margin-bottom: 45px;font-family: 'Dosis', sans-serif;}
+footer {color:#fff;position: absolute; bottom: 0; width: 100%;background-color: #00bca2;}
+#geral{position: relative;min-height: 100%;}
+h2{margin-top: 50px;}
+hr{width: 40%;}
+
+/* menu */
+.navbar-static-top {background-color: #00bca2;}
+.navbar-static-bottom {background-color: #00bca2;}
+#oval{position: absolute;background-color: #00bca2;width: 170px;height: 170px;left: 50%;border-radius: 80px;margin-left: -85px; /* A metade de sua largura. */margin-top: -60px;z-index: 1000px;}
+#oval img{margin-top: 55px;margin-left: 10px;padding: 10px;}
+div .visible-xs>h4{color: #fff;}
+
+.bold{font-weight: bold;}
+#margem{margin-top: 15px;margin-bottom: 30px;}
+
+/* categorias */
+.cat-h2 {margin-top: 50px;}
+.cat-hr {width: 40%;margin-top: 10px;}
+
+/* aside */
+#painel-active {font-weight: bold;}
+.painel-h4{font-size: 16px;}
+.list-unstyled li{margin-top: 15px;margin-bottom: 15px;}
+.painel-h3{margin-top: 17px;margin-bottom: 7px;}
+
+/* configuracoes */
+.config-hr{width: 70%;float: left;}
+
+/* contato */
+.contato-form{margin-top: 20px;}
+
+/* sobre */ 
+.sobre-p{font-size:15px;}
+.sobre-strong{font-weight:normal;}
+
+/* perguntas */
+.list-group-item {padding: 15px;}
+#contador {background-color: #469ae6;padding: 10%;border-radius: 50%;border: 2px solid #469ae6;font-size: 1.7em;color: #fff;position: relative;height: 50px;width: 50px;}
+.branco{background-color: #fff;}
+.errado{background-color: #F56F6F;}
+.certo{background-color: #6FF588;}
+li.list-group-item.errado:hover{background-color: #F56F6F;}
+li.list-group-item.certo:hover{background-color: #6FF588;}
+
+/* relatório final */
+.rel-h3{font-size: 25px;}
+.rel-h4{margin-top: -5px;font-weight: bold;}
+.rel-p{margin-top: 25px;}
